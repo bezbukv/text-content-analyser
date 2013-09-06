@@ -1,3 +1,1 @@
-cmt "Msg"
-
-http://www.atlassian.com/git/workflows?_escaped_fragment_=workflow-gitflow
+Проект больше информационный. Основная информация находится в Wiki. Часть перенесена в 
