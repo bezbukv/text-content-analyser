@@ -1,0 +1,370 @@
+/*+
+'		<br>'+
+'		<br>'+
+'		<br>'+
+'		<br>'+
+'		<p></p>'+
+'		<p></p>'+
+'	<div class="divider">'+
+'<div align="center">'+
+'		<span><b>Основные параметры:&nbsp;&nbsp;&nbsp;</b></span>'+
+'		<span id="vtv'+number+'_lck" class="t42">&nbsp;&nbsp;&nbsp;</span>'+
+'		<span id="vtv'+number+'_sts" class="t42">&nbsp;&nbsp;&nbsp;</span>'+
+'		<span id="vtv'+number+'_ready" class="t42">&nbsp;&nbsp;&nbsp;</span>'+
+'</div>'+
+'		<p></p>'+
+'	</div>'+
+'	<p></p>'+
+
+'	<div class="div_newt">'+
+'		<span class="t2">Режим управления</span>'+
+'		<input type="text" name="vtv_ctl" value="" id="vtv'+number+'_ctl" size="14" readonly="readonly" class="t4"/>'+
+'		<input type="text" value="Входной поток" size="26" readonly="readonly" class="t2"/>'+
+'		<input type="text" name="vtv_instr" value="" id="vtv'+number+'_instr" size="10" readonly="readonly" class="t4"/>'+
+'	</div>'+
+'	<p></p>'+
+'	'+
+'	<div class="div_newt">'+
+'		<input type="text" value="Внешняя синхронизация" size="30" readonly="readonly" class="t2"/>'+
+'		<input type="text" name="vtv_outsync" value="" id="vtv'+number+'_outsync" size="14" readonly="readonly" class="t4"/>'+
+'	</div>'+
+'	<p></p>'+
+
+'	<div class="div_newt">'+
+'		<input type="text" value="Выходная мощность, мВт" size="30" readonly="readonly" class="t2"/>'+
+'		<input type="text" name="vtv_outpow" value="" id="vtv'+number+'_outpow" size="10" readonly="readonly" class="t42"/>'+
+'		<p></p>'+
+'	</div>'+
+'	 '+
+'	<p></p>'+
+
+
+'	<div><label> Усилитель :</label></div>'+
+'	<p></p>'+
+'	<div class="div_newt">'+
+'		<input type="text" name="vtv_pa_lck" value="" id="vtv'+number+'_pa_lck" size="12" readonly="readonly" class="t4"/>'+
+'		<input type="text" name="vtv_pa_st" value="" id="vtv'+number+'_pa_st" size="12" readonly="readonly" class="t4"/>'+
+'	</div>'+
+'	<p></p>'+
+
+'	<div><label> Модулятор :</label></div>'+
+'	<p></p>'+
+'	<div class="div_newt">'+
+'		<input type="text" name="vtv_mod_lck" value="" id="vtv'+number+'_mod_lck" size="12" readonly="readonly" class="t4"/>'+
+'		<input type="text" name="vtv_mod_st" value="" id="vtv'+number+'_mod_st" size="12" readonly="readonly" class="t4"/>'+
+'		<input type="text" value="" size="6" readonly="readonly" class="t2"/>'+
+'		<input type="text" value="Код отказа модулятора" size="30" readonly="readonly" class="t2"/>'+
+'		<input type="text" name="vtv_mod_err" value="" id="vtv'+number+'_mod_err" size="10" readonly="readonly" class="t4"/>		'+
+'	</div>'+
+'	<p></p>'+
+'"Режим управления"<br>'+
+'"vtv"'+'+number+'+'"_ctl" <br>'+
+'"Входной поток" <br>'+
+'"vtv"'+'+number+'+'"_instr"<br>'+
+
+'"Внешняя синхронизация"<br>'+
+'"vtv"'+'+number+'+'"_outsync" <br>'+
+
+'"Выходная мощность, мВт"<br>'+
+'"vtv"'+'+number+'+'"_outpow" <br>'+
+
+'<div><label> Усилитель :</label></div><br>'+
+'"vtv"'+'+number+'+'"_pa_lck"<br>'+
+'"vtv"'+'+number+'+'"_pa_st"<br>'+
+
+'<div><label> Модулятор :</label></div><br>'+
+'"vtv"'+'+number+'+'"_mod_lck"<br>'+
+'"vtv"'+'+number+'+'"_mod_st"<br>'+
+
+'"Код отказа модулятора"<br>'+
+'"vtv"'+'+number+'+'"_mod_err"';
+*/
+
+
+
+	'<div class="div_newt"><p></p></div>'+
+	''+
+	'<p></p>'+
+	'   '+
+	'<div class="div_newt">'+
+	'	<input type="text" value="Сеть" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_net" value="" id="vtv'+number+'_net" size="10" readonly="readonly" class="t4"/>'+
+	'	<input type="text" value="DVB-H вкл/откл" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_dvbon" value="" id="vtv'+number+'_dvbon" size="10" readonly="readonly" class="t4"/>'+
+	'</div>'+
+	'<p></p>'+
+	'<div class="div_newt">'+
+	'	<input type="text" value="MIP вкл/откл" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_mipon" value="" id="vtv'+number+'_mipon" size="10" readonly="readonly" class="t4"/>'+
+	'	<input type="text" value="ASI-1" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_asi1" value="" id="vtv'+number+'_asi1" size="10" readonly="readonly" class="t4"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div  class="divider">'+
+	'	<input type="text" value="ASI-2" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_asi2" value="" id="vtv'+number+'_asi2" size="10" readonly="readonly" class="t4"/>'+
+	'	<p></p>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div class="div_newt">'+
+	'	<input type="text" value="Тип модуляции" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_qam" value="" id="vtv'+number+'_qam" size="10" readonly="readonly" class="t4"/>'+
+	'	<input type="text" value="Скорость кода" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_rate" value="" id="vtv'+number+'_rate" size="10" readonly="readonly" class="t4"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div class="div_newt">'+
+	'	<input type="text" value="Защитный интервал" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_gi" value="" id="vtv'+number+'_gi" size="10" readonly="readonly" class="t4"/>'+
+	'	<input type="text" value="Иерархический режим" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_heir" value="" id="vtv'+number+'_heir" size="10" readonly="readonly" class="t4"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div  class="divider">'+
+	'	<input type="text" value="Число несущих" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_carnum" value="" id="vtv'+number+'_carnum" size="10" readonly="readonly" class="t4"/>'+
+	'	<p></p>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div class="div_newt">'+
+	'	<input type="text" value="Номер канала" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_chnum" value="" id="vtv'+number+'_chnum" size="10" readonly="readonly" class="t42"/>'+
+	'	<input type="text" value="Частота, МГц" size="28" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_freq" value="" id="vtv'+number+'_freq" size="12" readonly="readonly" class="t42"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div class="div_newt">'+
+	'	<input type="text" value="Уровень выхода, дБ" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_outlev" value="" id="vtv'+number+'_outlev" size="10" readonly="readonly" class="t42"/>'+
+	'	<input type="text" value="Номер передатчика" size="28" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_trnum" value="" id="vtv'+number+'_trnum" size="12" readonly="readonly" class="t42"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	' <div  class="divider">'+
+	'	<input type="text" value="Номер ячейки, ID" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_cellnum" value="" id="vtv'+number+'_cellnum" size="10" readonly="readonly" class="t42"/>'+
+	'	<input type="text" value="Доп. задержка, x100 нс." size="28" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_delay" value="" id="vtv'+number+'_delay" size="12" readonly="readonly" class="t42"/>'+
+	'	<p></p>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<div class="div_newt">'+
+	'	<input type="text" value="Нелинейный предкорректор" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_nonline" value="" id="vtv'+number+'_nonline" size="10" readonly="readonly" class="t4"/>'+
+	'	<input type="text" value="Линейный предкорректор" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_line" value="" id="vtv'+number+'_line" size="10" readonly="readonly" class="t4"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	' <div class="div_newt">'+
+	'	<input type="text" value="№ кривой нел. предкорректора" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_numberline" value="" id="vtv'+number+'_numberline" size="10" readonly="readonly" class="t4"/>'+
+	'	<input type="text" value="Режим теста" size="30" readonly="readonly" class="t2"/>'+
+	'	<input type="text" name="vtv_test" value="" id="vtv'+number+'_test" size="10" readonly="readonly" class="t4"/>'+
+	'</div>'+
+	'<p></p>'+
+	''+
+	'<p><a target="_blank" id="mod_mod'+number+'_ref" href="" style="text-decoration:underline">Веб интерфейс модулятора ВТВ'+number+'</a>	</p>'+
+	''
+	
+	'<div class="div_newt"><p></p></div>'+
+		'	<div><label > Основные параметры:</label ></div>'+
+		'	'+
+		'	<p></p>'+
+		'   '+
+		'	<div  class="divider">'+
+		'		<input type="text" name="pab_lck" value="" id="new'+number+'pab_lck" size="10" readonly="readonly" class="t42"/>'+
+		'		<input type="text" name="pab_st" value="" id="new'+number+'pab_st" size="10" readonly="readonly" class="t42"/>'+
+		'		<input type="text" name="pab_onof" value="" id="new'+number+'pab_onof" size="10" readonly="readonly" class="t42"/>'+
+		'		<p></p>'+
+		'	</div>'+
+		'	<p></p>'+
+		'  '+
+		'	<p></p>'+
+		'	<div class="div_newt">'+
+		'		<input type="text" value="Входная мощность, мВт." size="30" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="inpow_val" value="" id="new'+number+'inpow_val" size="10" readonly="readonly" class="t42"/>'+
+		'		 <input type="text" value="Выходная мощность, Вт" size="28" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="outpow_val" value="" id="new'+number+'outpow_val" size="12" readonly="readonly" class="t42"/>'+
+		'	</div>'+
+		'	<p></p>'+
+		''+
+		'	<div class="div_newt">'+
+		'		<input type="text" value="КБВ, значение " size="30" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="frw_val" value="" id="new'+number+'frw_val" size="10" readonly="readonly" class="t42"/>'+
+		'		<input type="text" value="Режим БУМ" size="28" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pab_da" value="" id="new'+number+'pab_da" size="12" readonly="readonly" class="t42"/>'+
+		'		<p></p>'+
+		'	</div>'+
+		'	'+
+		'	<p></p>'+
+		'	'+
+		'	<div><label > Предварительный усилитель:</label ></div>'+
+		'   '+
+		'	<p></p>'+
+		'	<div class="div_newt">'+
+		'		<input type="text" value="АРУ" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pp_agc_st" value="" id="new'+number+'pp_agc_st" size="10" readonly="readonly" class="t4"/>'+
+		'		<!--<input type="text" value="Дежурное +15" size="26" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pp_15_st" value="" id="new'+number+'pp_15_st" size="10" readonly="readonly" class="t4"/>-->'+
+		'	</div>'+
+		'	<p></p>'+
+		'	<div class="div_newt">'+
+		'		<input type="text" value="Ток VT1, А" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pre_vt1_val" value="" id="new'+number+'pre_vt1_val" size="6" readonly="readonly" class="t42"/>'+
+		'		<input type="text" value="Ток VT2, А" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pre_vt2_val" value="" id="new'+number+'pre_vt2_val" size="6" readonly="readonly" class="t42"/>'+
+		'	</div>'+
+		'	<p></p>'+
+		'	<div class="div_newt">'+
+		'		<input type="text" value="Температура" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pp_temre" value="" id="new'+number+'pp_temre" size="6" readonly="readonly" class="t42"/>'+
+		'		<input type="text" value="Напряжение установки фазы, В" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pre_phs_val" value="" id="new'+number+'pre_phs_val" size="6" readonly="readonly" class="t42"/>'+
+		'	</div>'+
+		'	<p></p>'+
+		'	'+
+		'	<div class="div_newt">'+
+		'		<input type="text" value="Напряжение МИП, В" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pre_mip_val" value="" id="new'+number+'pre_mip_val" size="6" readonly="readonly" class="t42"/>'+
+		'		<input type="text" value="Напряжение аттенюатора, В" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pre_att_val" value="" id="new'+number+'pre_att_val" size="6" readonly="readonly" class="t42"/>'+
+		'	</div>'+
+		'	<p></p>'+
+		'	<div class="div_newt" id="new'+number+'refer_div" style = "display:none">'+
+		'		'+
+		'		<input type="text" value="Напряжение опорное, В" size="32" readonly="readonly" class="t2"/>'+
+		'		<input type="text" name="pre_ref_val" value="" id="new'+number+'pre_ref_val" size="6" readonly="readonly" class="t42"/>'+
+		'	</div>'+
+		'	<p></p>'+
+		'	'+
+		''+
+		'	<div class="div_newt" id="new'+number+'pa1" style = "display:none">'+
+		'		'+
+		'		<div><label > Оконечный усилитель 1:</label ></div>'+
+		'		'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Ток VT1, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa1_vt1_val" value="" id="new'+number+'pa1_vt1_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Ток VT2, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa1_vt2_val" value="" id="new'+number+'pa1_vt2_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Напряжение МИП, В" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa1_mip_val" value="" id="new'+number+'pa1_mip_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Температура, С" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa1_tem_val" value="" id="new'+number+'pa1_tem_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'	</div>'+
+		'	'+
+		'	<div class="div_newt" id="new'+number+'pa2" style = "display:none">'+
+		'		'+
+		'		<div><label > Оконечный усилитель 2:</label ></div>'+
+		'		'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Ток VT1, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa2_vt1_val" value="" id="new'+number+'pa2_vt1_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Ток VT2, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa2_vt2_val" value="" id="new'+number+'pa2_vt2_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Напряжение МИП, В" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa2_mip_val" value="" id="new'+number+'pa2_mip_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Температура, С" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa2_tem_val" value="" id="new'+number+'pa2_tem_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'	</div>'+
+		'	'+
+		'	 <div class="div_newt" id="new'+number+'pa3" style = "display:none">'+
+		'		'+
+		'		<div><label > Оконечный усилитель 3:</label ></div>'+
+		'		'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Ток VT1, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa3_vt1_val" value="" id="new'+number+'pa3_vt1_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Ток VT2, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa3_vt2_val" value="" id="new'+number+'pa3_vt2_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Напряжение МИП, В" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa3_mip_val" value="" id="new'+number+'pa3_mip_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Температура, С" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa3_tem_val" value="" id="new'+number+'pa3_tem_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'	</div>'+
+		'	'+
+		'	 <div class="div_newt" id="new'+number+'pa4" style = "display:none">'+
+		'		'+
+		'		<div><label > Оконечный усилитель 4:</label ></div>'+
+		'		'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Ток VT1, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa4_vt1_val" value="" id="new'+number+'pa4_vt1_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Ток VT2, А" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa4_vt2_val" value="" id="new'+number+'pa4_vt2_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'		<div class="div_newt">'+
+		'			<input type="text" value="Напряжение МИП, В" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa4_mip_val" value="" id="new'+number+'pa4_mip_val" size="6" readonly="readonly" class="t42"/>'+
+		'			<input type="text" value="Температура, С" size="32" readonly="readonly" class="t2"/>'+
+		'			<input type="text" name="pa4_tem_val" value="" id="new'+number+'pa4_tem_val" size="6" readonly="readonly" class="t42"/>'+
+		'		</div>'+
+		'		<p></p>'+
+		'	</div>'
+		
+		'<div class="div_newt"><p></p>'+
+'    </div>'+
+'    <div>'+
+'    <label > Основные параметры:</label >'+
+'	'+
+'    </div>'+
+'    <p></p>'+
+'       '+
+'    <div  class="divider">'+
+'        <input type="text" name="bd_st" value="" id="new'+number+'bd_st" size="14" readonly="readonly" class="t42"/>'+
+'        <!--<input type="text" name="snd_lck" value="" id="new'+number+'snd_lck" size="14" readonly="readonly" class="t42"/>-->'+
+'        '+
+'        <p></p>'+
+'    </div>'+
+' '+
+'    <p></p>'+
+'    <div class="div_newt">'+
+'        <input type="text" value="Режим" size="18" readonly="readonly" class="t2"/>'+
+'        <input type="text" name="bd_da" value="" id="new'+number+'bd_da" size="28" readonly="readonly" class="t4"/>'+
+'    </div>'+
+'    <p></p>'+
+'    '+
+'    <p></p>'+
+'    <div class="div_newt">'+
+'        <input type="text" value="Мощность Pср, Вт" size="21" readonly="readonly" class="t2"/>'+
+'        <input type="text" name="bd_pw" value="" id="new'+number+'bd_pw" size="8" readonly="readonly" class="t42"/>'+
+'    </div>'+
+'    <p></p>'+
+'    <div class="div_newt" id="new'+number+'pw_analog" style = "display:none">'+
+'        <input type="text" value="Мощность звука, Вт" size="21" readonly="readonly" class="t2"/>'+
+'        <input type="text" name="bd_pwsd" value="" id="new'+number+'bd_pwsd" size="8" readonly="readonly" class="t42"/>'+
+'    </div>'+
+'    <p></p>'+
+'    <div class="div_newt" id="new'+number+'fwr" style = "display:none">'+
+'        <input type="text" value="КБВ" size="21" readonly="readonly" class="t2"/>'+
+'        <input type="text" name="bd_frw" value="" id="new'+number+'bd_frw" size="8" readonly="readonly" class="t42"/>'+
+'    </div>'

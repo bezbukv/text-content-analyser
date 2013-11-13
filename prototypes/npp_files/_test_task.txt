@@ -1,0 +1,6 @@
+tmp_folder/Акцизы.pdf.txt
+tmp_folder/Аудит.pdf.txt
+tmp_folder/Водный налог.pdf.txt
+tmp_folder/Государственная пошлина.pdf.txt
+tmp_folder/Налоговое администрирование.pdf.txt
+tmp_folder/противод коррупции в сфере Госупр.pdf.txt

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crosscuttings/crosscuttings.iml" filepath="$PROJECT_DIR$/crosscuttings/crosscuttings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idx_coursors/idx_coursors.iml" filepath="$PROJECT_DIR$/idx_coursors/idx_coursors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map_reduce/map_reduce.iml" filepath="$PROJECT_DIR$/map_reduce/map_reduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sandbox/sandbox.iml" filepath="$PROJECT_DIR$/sandbox/sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spiders/spiders.iml" filepath="$PROJECT_DIR$/spiders/spiders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-wrapper/web-wrapper.iml" filepath="$PROJECT_DIR$/web-wrapper/web-wrapper.iml" />
+    </modules>
+  </component>
+</project>
+

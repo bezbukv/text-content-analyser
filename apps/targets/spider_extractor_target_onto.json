@@ -1,0 +1,16 @@
+{
+  "extention list": [
+    "odt", 
+    "doc", 
+    "pdf"
+  ], 
+  "ignored dir": [
+    "c:/"
+  ], 
+  "index name": [
+    "extract_ont_index"
+  ], 
+  "root": [
+    "d:/analiz"
+  ]
+}
