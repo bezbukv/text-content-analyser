@@ -1,0 +1,148 @@
+.sub_casts_header {
+  text-align:center;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font: 120%/1.5 Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.sub_header {
+  text-align:center;
+  /*margin-bottom: 15px;*/
+  margin-left: 10px;
+  margin-right: 10px;
+  font: 110%/1.5 Verdana, Tahoma, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text_highlight {
+  /*font-weight: bold;*/
+}
+
+
+/** Inputs styles */
+.input_field {
+  width: 80%;
+  height: 15px;
+  /*border: 1px solid #1010c0; /*#109020;*/
+  border: 1px solid #109020;
+  text-align:center;
+}
+
+.input_info {
+  width: 290px;
+}
+
+.input_ip {
+  width: 150px;
+}
+
+.btn_in_grid {
+  vertical-align: middle;
+
+}
+
+/* Labels */
+.label_align_left {
+  text-align: right;
+}
+
+/* Размещает в диве элемент */
+.parent {
+  width: 100%; /*450px; */
+  height: 100%; /*50px; */
+  text-align:center; 
+  /*border:1px solid #dd0; 
+  background: #ffa;  */
+}
+
+.child {
+  display:-moz-inline-box; 
+  display:inline-block; 
+  vertical-align:middle; 
+  zoom:1; 
+  //display:inline
+}
+
+.helper {
+  display:-moz-inline-box; 
+  display:inline-block; 
+  height:100%; 
+  width:0px; 
+  vertical-align:middle; 
+  zoom:1; 
+  //display:inline
+}
+
+.server_control_btns {
+  width:26%;
+}
+
+/** Grids */
+.one_line_container {
+  height: 40px;
+  /*margin-bottom: 3px;*/
+}
+/* Восемь частей внешнего div */
+.first_one8, 
+.first_one7, 
+.first_one5, 
+.first_one3,
+.first_one4, 
+.first_one2, 
+.first_one1  {clear: left;}
+
+.one8, 
+.one7, 
+.one5, 
+.one4, 
+.one3,
+.one2, 
+.one1, 
+.first_one8, 
+.first_one7, 
+.first_one5, 
+.first_one3,
+.first_one4, 
+.first_one2, 
+.first_one1  {
+  float: left; 
+  height: 100%; 
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.one8, .first_one8{ width: 98%; }
+.one7, .first_one7 { width: 77%; }
+.one5, .first_one5 { width: 60%; }
+
+/* Четыре части внешнего div */
+.one4, .first_one4 { width: 48%; }
+.one3, .first_one3 { width: 32%; }
+.one2, .first_one2 { width: 24%; }
+.one1 { width: 11%; }
+
+/***/
+.remark {
+  color:#1010c0;
+}
+
+/** Controls */
+.combobox_expander {
+  width:100%;
+  border: 1px solid #109020;
+  /*font: 72%/1.5 Verdana, Tahoma, Arial, Helvetica, sans-serif;*/
+}
+
+
+
+
+
+
+
+
+
+
+
