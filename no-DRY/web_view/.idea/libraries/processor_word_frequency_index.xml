@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="processor-word-frequency-index">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../out/artifacts/processor_word_frequency_index_jar/processor-word-frequency-index.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

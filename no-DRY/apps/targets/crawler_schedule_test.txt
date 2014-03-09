@@ -1,0 +1,14 @@
+# ! Поиск пока только по расширениям
+index name: test_index  # Одно на задание, два быть не может
+
+extention list: odt, doc, asfd, srt, pdf
+
+#root: d:/Dropbox 
+#root: d:/github_ 
+root: d:/doc_pdf_odt
+#root: d:/doc_pdf_odt_t
+
+# Не рассматриваемые директории
+ignored dir: c:/
+ignored dir: f:/
+ignored dir: d:/Dropbox/.dropbox.cache
