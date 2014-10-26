@@ -1,0 +1,9 @@
+# ! Поиск пока только по расширениям
+index name: real_index  # Одно на задание, два быть не может
+extention list: odt, doc, asfd, jython_src.pdf
+root: d:/analiz
+
+# Не рассматриваемые директории
+ignored dir: c:/
+ignored dir: f:/
+ignored dir: d:/Dropbox/.dropbox.cache

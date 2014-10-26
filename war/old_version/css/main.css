@@ -1,0 +1,21 @@
+/** Global */
+.text-contents {
+  position:absolute;
+  vertical-align:middle;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.0em;
+  top: 5px;
+}
+
+.text-fonter {
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.0em;
+}
+
+html, body { 
+  margin: 0; 
+  padding: 0; 
+}
+

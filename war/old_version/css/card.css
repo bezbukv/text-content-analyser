@@ -1,0 +1,43 @@
+.card-container {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  background-color: #333399;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-word-container {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  background-color: #333399;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-tuner-base {
+  height: 100%;
+  width: 11%;
+  position: absolute;
+}
+.card-tuner-base:hover {
+  background-color: #330099;
+}
+
+.card-tuner-left-position {
+  top: 0px;
+  left: 0px;
+}
+
+.card-tuner-right-position {
+  top: 0px;
+  right: 0px;
+}
+
+.card-circle-parent-position {
+  top: 85px;
+  left: 4px;
+}

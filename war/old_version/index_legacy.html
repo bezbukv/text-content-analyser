@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/leafs.css">
+    <link rel="stylesheet" href="css/layers.css">
+    <link rel="stylesheet" href="css/inner-reuse.css">
+    <link rel="stylesheet" href="css/sliders.css">
+   
+    <!--script src="js/prototype.js"></script-->
+    <script src="js/third_party/underscore.js"></script>
+    <script src="js/third_party/jquery.min.js"></script>
+    <script src="js/reuse.js"></script>
+    <script src="js/cards.js"></script>
+  </head>
+  <body onload="init()">
+    <!--div id="translate" class="card-container">
+        <span class="text-contents">Translate not implemented</span>
+    </div-->
+    
+    <div class="card-word-container">     
+      <!-- Тюнеры по карточкам -->
+      <div class="card-tuner-base card-tuner-left-position">
+        <div class="circle-parent card-circle-parent-position">
+          <div class="circle-child">
+            <div class="triangle-inner-left"></div>
+          </div>
+        </div>
+      </div>
+      <div class="card-tuner-base card-tuner-right-position">
+        <div class="circle-parent card-circle-parent-position">
+          <div class="circle-child">
+            <div class="triangle-inner-right"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Стопка листов-->
+      <div class="leafs-container"></div>
+    </div>
+    
+    <div id="content" class="card-container"></div>
+    <p class="slide">
+        <a href="" class="btn-slide">
+            <span class="text-fonter">Open context</span>
+        </a>
+    </p> 
+    
+  </body>
+</html>

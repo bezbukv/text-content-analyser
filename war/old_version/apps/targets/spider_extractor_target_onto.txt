@@ -1,0 +1,54 @@
+[onto]* d:/analiz/Акцизы.jython_src.pdf
+[onto]* d:/analiz/Аудит.jython_src.pdf
+[onto]* d:/analiz/Водный налог.jython_src.pdf
+[onto]* d:/analiz/Государственная пошлина.jython_src.pdf
+[onto]* d:/analiz/Делопроизводство и архив.jython_src.pdf
+[onto]* d:/analiz/Доказательство недобросовестности налогоплательщиков.jython_src.pdf
+[onto]* d:/analiz/Досудебное урегулирование налоговых споров.jython_src.pdf
+[onto]* d:/analiz/ЕНВД.jython_src.pdf
+[onto]* d:/analiz/ЕСХН.jython_src.pdf
+[onto]* d:/analiz/Замещение должностей ГГС в РФ.jython_src.pdf
+[onto]* d:/analiz/Земельный налог с организаций.jython_src.pdf
+[onto]* d:/analiz/Земельный налог с физлиц.jython_src.pdf
+[onto]* d:/analiz/Информ_документ_обеспечение.jython_src.pdf
+[onto]* d:/analiz/Коммуникационный менеджмент.jython_src.pdf
+[onto]* d:/analiz/Контроль за применением ККТ.jython_src.pdf
+[onto]* d:/analiz/Конфликтология.jython_src.pdf
+[onto]* d:/analiz/Международная практика регулирования трансфертного ценообразования.jython_src.pdf
+[onto]* d:/analiz/Менеджмент.jython_src.pdf
+[onto]* d:/analiz/Налог и администр правонаруш.jython_src.pdf
+[onto]* d:/analiz/Налог на добавленную стоимость.jython_src.pdf
+[onto]* d:/analiz/Налог на добычу полезных ископаемых.jython_src.pdf
+[onto]* d:/analiz/Налог на доходы физических лиц.jython_src.pdf
+[onto]* d:/analiz/Налог на игорный бизнес.jython_src.pdf
+[onto]* d:/analiz/Налог на имущество организаций.jython_src.pdf
+[onto]* d:/analiz/Налог на имущество физических лиц.jython_src.pdf
+[onto]* d:/analiz/Налог на прибыль организаций.jython_src.pdf
+[onto]* d:/analiz/Налоги и налогообложение в схемах.jython_src.pdf
+[onto]* d:/analiz/Налоговое администрирование.jython_src.pdf
+[onto]* d:/analiz/Налоговые системы зарубежных стран.jython_src.pdf
+[onto]* d:/analiz/Налогообл операций с ЦБ.jython_src.pdf
+[onto]* d:/analiz/Обеспечение процедур банкротства.jython_src.pdf
+[onto]* d:/analiz/Орг правов основы ГГС.jython_src.pdf
+[onto]* d:/analiz/Организация ДПО ГГС.jython_src.pdf
+[onto]* d:/analiz/Организация и методика проведения налоговых проверок.jython_src.pdf
+[onto]* d:/analiz/Организация работы со СМИ.jython_src.pdf
+[onto]* d:/analiz/ПИК Кадры.jython_src.pdf
+[onto]* d:/analiz/Планирование выездных налог проверок, предпроверочный анализ.jython_src.pdf
+[onto]* d:/analiz/Правовое регулир налог отношен.jython_src.pdf
+[onto]* d:/analiz/противод коррупции в сфере Госупр.jython_src.pdf
+[onto]* d:/analiz/Сборник задач и тестов_Спецрежимы.jython_src.pdf
+[onto]* d:/analiz/Сборы за пользование объектами водного мира.jython_src.pdf
+[onto]* d:/analiz/Система госуправления.jython_src.pdf
+[onto]* d:/analiz/Система налогообложения при выполнении соглашений о разделе продукции.jython_src.pdf
+[onto]* d:/analiz/служебное поведение ГГС_Кокорев.jython_src.pdf
+[onto]* d:/analiz/Спич- и копи- райтинг.jython_src.pdf
+[onto]* d:/analiz/транспортный налог с организаций.jython_src.pdf
+[onto]* d:/analiz/транспортный налог с физлиц.jython_src.pdf
+[onto]* d:/analiz/Трансф_ЦО.jython_src.pdf
+[onto]* d:/analiz/Управление персоналом ГГС в налоговых органах.jython_src.pdf
+[onto]* d:/analiz/урегулирование задолженности.jython_src.pdf
+[onto]* d:/analiz/УСН.jython_src.pdf
+[onto]* d:/analiz/Финансовый анализ деятельности коммерческой организации.jython_src.pdf
+[onto]* d:/analiz/Финансовый учет и отчетность.jython_src.pdf
+[onto]* d:/analiz/Этика и этикет ГГС.jython_src.pdf

@@ -1,0 +1,47 @@
+<!doctype html>
+<html ng-app="phonecatApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+    
+    <script src="/js/controllers.js" charset="UTF-8"></script>
+    
+    <link rel="stylesheet" href="css/aj.css">
+</head>
+<body ng-controller="PhoneListCtrl">
+    
+  <div>
+    Current page name:
+    <select ng-model="orderProp">
+      <option value="age">Korra</option>
+    </select>
+    
+    <button ng-click="ni()">
+      Add new page
+    </button>
+    <a href="/research/research.html">Research page</a>
+    <br>
+
+    <!-- Own word -->
+    <button ng-click="getNewWord()">
+      Get
+    </button>
+    <br/>
+    <br/>
+    <span class="word_style" ng-model="word"> {{word}}</span>
+    
+    <br>
+
+    <!-- Addition data -->
+    <label>
+    <span ng-hide="translateHided">Translates</span>    
+    <!-- Context samples -->
+    <ul ng-hide="contextSamplesHided">
+      <li ng-repeat="sample in samples | filter:yourName">
+        {{sample}}
+      </li>
+    </ul>  
+  </div>
+  
+  <!-- Как бы сюда прилепить график генераторов, пусть будет на одной стр. -->
+</body>
+</html>

@@ -1,0 +1,73 @@
+.circle-parent {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.circle-child {
+  background-color: #333399;
+  width: 26px;
+  height: 26px;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.triangle-inner-up {
+  position: relative;
+  top: 4px;
+  left: 4px;
+
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 14px solid white;
+}
+
+.triangle-inner-right {
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 18px solid white;
+  
+  position: relative;
+  top: 4px;
+  left: 6px;
+}
+
+.triangle-inner-left {
+  position: relative;
+  top: 4px;
+  left: 2px;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 18px solid white;
+}
+
+.small-triangle-base {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  
+  position: relative;
+}
+
+.small-triangle-up {
+  border-bottom: 14px solid white;
+}
+
+.small-triangle-down {
+  border-top: 14px solid white;
+}

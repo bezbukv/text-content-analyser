@@ -1,0 +1,34 @@
+{
+  App: {
+    Spider: {
+      targets_folder: "./app-spider-targets/",
+      intermedia_storage: "./app-folder/intermedia_storage/",
+      
+      # Доступные ключи
+      available_keys: ["to_text", "external_url"],
+      
+      # Доступные конверторы
+      to_text_convertors: [ 
+        "std_srt_to_text_line"],
+      
+      # Могут автоматически детектироваться
+      auto_detected_urls: ["srt", "txt"]
+    },
+    Crawler : {
+      
+    },
+    Spider extractor : {
+      # только по расширениям плохо, но пока путь будет так
+      # c txt and json поосторожнее - формат у них может быть любым!
+      # ptxt - purged txt - inner format - это чтобы неясные форматы не ушли слишком далеко
+      # name.ptxt -> name.meta  - можно было бы в одни файл, но если исп. др. метода анализа
+      #   то метаданные в файле могут мешать. Может обернуть в структ. форма? Pdf?
+      auto_detected_extention: ["doc", "odt", "pdf", "srt", "ptxt"]
+    },
+    Scriber : {
+      #index_root: "d:/test_extr/indexes",
+      #dir_with_extr_texts: "d:/test_extr/tmp",
+      app_folder: "d:/app_folder"
+    }
+  }
+}

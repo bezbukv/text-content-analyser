@@ -1,0 +1,5 @@
+v1:
+user->page->word->item
+
+v2:
+user->word - экономика места, но нужна связь нужна еще связь word->page

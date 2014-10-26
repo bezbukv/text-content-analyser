@@ -1,0 +1,56 @@
+.layer {
+  height: 76%;
+  width: 88%;
+  top: 12%;
+  left: 6%;
+  background-color: #333399;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.layer-inner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+    vertical-align: middle;
+  background-color: #333399;
+}
+
+.layer-tuner-base {
+  position: absolute;
+  width: 100%;
+  height: 11%;
+  background-color: #333399;
+}
+
+.layer-tuner-down:hover, 
+.layer-tuner-up:hover {
+  background-color: #330099;
+}
+
+.layer-tuner-down {
+  width: 100%;
+  height: 12%;
+  bottom: 0;
+  background-color: #333399;
+}
+
+.layer-tuner-up {
+  height: 12%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background-color: #333399;
+}
+
+.layer-triangle-position-base {
+  left: 162px;
+}
+
+.layer-triangle-position-up {
+  top: 0px;
+}
+
+.layer-triangle-position-down {
+  bottom: -4px;
+}

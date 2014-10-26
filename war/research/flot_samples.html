@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0063)http://www.flotcharts.org/flot/examples/series-types/index.html -->
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Flot Examples: Series Types</title>
+	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="/3rdparty/excanvas.min.js"></script><![endif]-->
+	<script language="javascript" type="text/javascript" src="/3rdparty/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="/3rdparty/jquery.flot.js"></script>
+
+</head>
+<body>
+<div id="placeholder" style="width:500px; height:300px"></div>
+<script type="text/javascript">
+$(function() {
+  var data, data1, options, chart;
+    data1 = [[1, 4], [2,5], [3, 6], [4,9]];
+    var data2 = [], data3 = [];
+
+    data = [
+        {data:data1, label:"eq", lines:{show:true}, points:{show:true}},
+        data2, data3];
+
+    options = {};
+
+    // Просто сохранять страницы толку нет, т.к. она изменена js'ом
+    $(document).ready(function() {
+      chart1 = $.plot($("#placeholder"), data, options);
+    });
+});
+</script>
+</body>
+</html>

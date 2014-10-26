@@ -1,0 +1,26 @@
+a:focus {
+	outline: none;
+}
+#content {
+	display: none;
+}
+.slide {
+	margin: 0;
+	padding: 0;
+	border-top: solid 0px #422410;
+}
+.btn-slide {
+    background-color: gold;
+	text-align: center;
+	width: 144px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+
+	color: #fff;
+	text-decoration: none;
+}
+.active {
+	background-position: right 12px;
+}

@@ -1,0 +1,70 @@
+.leaf {
+  height: 100%;
+  width: 100%;
+  
+  position: absolute;
+  top: 0;
+
+  background-color: #333399;
+}
+
+.leafs-container {
+  width: 78%;
+  height: 76%;
+
+  top: 12%;
+  left:11%;
+  position: absolute;
+  
+  background-color: #333399;
+}
+
+.leafs-triangle-position-base {
+  left: 123px;
+}
+
+.leafs-triangle-position-up {
+  top: 2px;
+}
+
+.leafs-triangle-position-down {
+  bottom: -2px;
+}
+
+.leafs-triangle-position-over-up {
+  top: -6px;
+}
+.leafs-triangle-position-over-down {
+  bottom: 6px;
+}
+
+  
+.leafs-tuner-base {
+  position: absolute;
+  width: 78%;
+  height: 12%;
+  left: 11%;
+  background-color: #333399;
+}
+
+.leafs-tuner-up {
+  top: 0;
+}
+
+.leafs-tuner-up:hover, .leafs-tuner-down:hover {
+  background-color: #330099;
+}
+
+.leafs-tuner-down {
+  bottom: 0;
+}
+
+/* Указатель на то, склько активных карт */
+.leafs-total-view  {
+  height: 100%;
+  width: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #333399;
+}

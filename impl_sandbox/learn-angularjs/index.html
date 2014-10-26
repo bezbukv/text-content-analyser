@@ -1,0 +1,25 @@
+<!-- index.html  http://scotch.io/tutorials/javascript/single-page-apps-with-angularjs-routing-and-templating-->
+  <!DOCTYPE html>
+  <html ng-app="scotchApp">
+  <head>
+    <!-- SCROLLS -->
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+
+    <!-- SPELLS -->
+    <!-- load angular via CDN -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-controller="mainController">
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <button ng-click="changeName()" type="button" class="btn btn-success">Success</button>
+    <div id="main">
+      {{visiblePage.name}}
+    </div>
+  </body>
+  </html>

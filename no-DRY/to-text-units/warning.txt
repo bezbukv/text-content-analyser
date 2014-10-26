@@ -1,6 +1,0 @@
-Содержит проекты
-Netbeans
-IntellIJ 
-
-# Python
-PyDev - Eclipse

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: guava-14.0.1.jar javatuples-1.2.jar junit-4.11.jar servlet
+ -api-2.5.jar commons-lang3-3.1.jar jetty-all-7.0.2.v20100331.jar jcip
+ -annotations.jar hamcrest-core-1.3.jar gson-2.2.3.jar mockito-all-1.9
+ .5.jar snakeyaml-1.12.jar checkthread-annotations-1.0.9.jar
+Main-Class: frozen.web.WebRelayApp
+
